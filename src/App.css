@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .main {
@@ -28,4 +29,33 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+/*
+Scroll
+*/
+
+.scroll {
+  width: 100vw;
+  background: rgb(61, 12, 12);
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+}
+
+.container {
+  width: 80vw;
+  padding: 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.progress-bar {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: red;
 }
